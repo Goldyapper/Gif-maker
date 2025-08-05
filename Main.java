@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             String folderPath = "Photos-to-Gif"; 
+            String outputFilePath = "output.gif";  // Path to save your GIF
 
             ArrayList<BufferedImage> frames = ImageLoader.loadImages(folderPath);
 
